@@ -1,10 +1,10 @@
 {
-  "name": "INSERT NAME HERE",
+  "name": "insert-name-here",
   "version": "1.0.0",
   "description": "",
   "main": "server.js",
   "scripts": {
-    "build-watch": "webpack -w & node-sass -w app/sass/main.scss -o public/stylesheets & nodemon server.js"
+    "start": "webpack -w & node-sass -w app/sass/main.scss -o public/stylesheets & nodemon server.js"
   },
   "author": "Julie Busch",
   "license": "ISC",
